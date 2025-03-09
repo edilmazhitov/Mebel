@@ -1,0 +1,24 @@
+.user-bar {
+
+  &__menu {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__icons {
+    width: 20px;
+    height: 20px;
+    color: black;
+  }
+
+}
+
+@media (max-width: 960px) {
+  .user-bar {
+    &__menu {
+      column-gap: 20px;
+    }
+  }
+}

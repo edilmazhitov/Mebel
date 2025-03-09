@@ -1,0 +1,14 @@
+@use "./globals.scss";
+
+// components styles
+@use "./components/Header.scss";
+@use "./components/Navbar.scss";
+@use "./components/userBar.scss";
+
+
+// pages styles
+
+@use "pages/Home.scss";
+@use "./pages/Register.scss";
+
+

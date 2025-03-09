@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "edil@gmail.com",
+      "name": "Edil",
+      "surname": "Mazhitov",
+      "phone": "+996225080276",
+      "city": "Bishkek",
+      "street": "Frunze",
+      "home": 993,
+      "orders": [],
+      "points": 500
+    }
+  ],
+  "products": [
+
+  ]
+}

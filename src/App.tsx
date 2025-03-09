@@ -1,10 +1,13 @@
+import { RouterProvider } from "react-router-dom";
+import router from "./routing/routing";
 
+import './styles/styles.scss';
 
 
 const App = () => {
     return (
         <>
-            <h1>STARTED PROJECTS - "Mebel"</h1>
+            <RouterProvider router={router} />
         </>
     );
 };

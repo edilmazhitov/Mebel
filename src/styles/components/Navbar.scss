@@ -1,0 +1,65 @@
+.navbar {
+
+  &__menu {
+    height: 38px;
+    background-color: #313131;
+
+    &-block {
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      padding: 11px 0 0;
+    }
+
+    &-list {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      column-gap: 30px;
+    }
+
+    &-left {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      column-gap: 33px;
+    }
+  }
+
+  &__contacts,
+  &__delivery {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+    &-tel,
+    &-title {
+      font-size: 14px;
+      color: white;
+    }
+
+    &-icons {
+      width: 29px;
+      height: 17px;
+      color: white;
+    }
+  }
+
+
+
+  &__link {
+    font-size: 14px;
+    color: white;
+  }
+
+
+}
+
+
+@media (max-width: 1092px) {
+  .navbar {
+    &__menu {
+      display: none;
+    }
+  }
+}

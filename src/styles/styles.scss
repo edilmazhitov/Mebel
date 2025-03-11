@@ -4,6 +4,7 @@
 @use "./components/Header.scss";
 @use "./components/Navbar.scss";
 @use "./components/userBar.scss";
+@use "./components/Menu.scss";
 
 
 // pages styles
@@ -12,3 +13,35 @@
 @use "./pages/Register.scss";
 
 
+
+@media (max-width: 1092px) {
+
+}
+
+@media (max-width: 993px) {
+
+}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 768px)  {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 425px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

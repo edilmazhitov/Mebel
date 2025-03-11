@@ -3,12 +3,13 @@ import { GrFavorite } from "react-icons/gr";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { LuUser } from "react-icons/lu";
 import { IoSearchOutline } from "react-icons/io5";
+import {BsTelephone} from "react-icons/bs";
+import {TbTruckDelivery} from "react-icons/tb";
 
 import {Link} from "react-router-dom";
 import Logo from "../../assets/Logo.png";
-import Navbar from "../Navbar/Navbar.tsx";
-import {BsTelephone} from "react-icons/bs";
-import {TbTruckDelivery} from "react-icons/tb";
+import Navbar from "../Navbar/Navbar";
+
 
 const Header: FC = () => {
 

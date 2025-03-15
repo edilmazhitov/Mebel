@@ -14,6 +14,65 @@
     }
   ],
   "products": [
-
+    {
+      "id": 1,
+      "title": "Валенсия Beige",
+      "type": "Барные стулья",
+      "imageUrl": "https://i.imgur.com/Cfmiog1.png",
+      "price": 2300,
+      "colors": [
+        "red",
+        "green",
+        "blue",
+        "orange",
+        "white"
+      ],
+      "quantity": 1000
+    },
+    {
+      "id": 2,
+      "title": "Толикс-2 White Gloss",
+      "type": "Барные стулья",
+      "imageUrl": "https://i.imgur.com/AU4bx1Z.png",
+      "price": 2300,
+      "colors": [
+        "red",
+        "green",
+        "blue",
+        "orange",
+        "white"
+      ],
+      "quantity": 1000
+    },
+    {
+      "id": 3,
+      "title": "Динс Velvet Yellow",
+      "type": "Диваны",
+      "imageUrl": "https://i.imgur.com/Xf4sgWg.png",
+      "price": 23000,
+      "colors": [
+        "red",
+        "green",
+        "blue",
+        "orange",
+        "white"
+      ],
+      "quantity": 1000
+    },
+    {
+      "id": 4,
+      "title": "Кускен Navy Blue",
+      "type": "Диваны",
+      "imageUrl": "https://i.imgur.com/ZjXi9hW.png",
+      "price": 13000,
+      "colors": [
+        "red",
+        "green",
+        "blue",
+        "orange",
+        "white"
+      ],
+      "quantity": 1000
+    }
   ]
 }

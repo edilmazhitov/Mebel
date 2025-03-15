@@ -1,6 +1,6 @@
 import {createBrowserRouter, RouteObject} from "react-router-dom";
 import Root from "../Root/Root";
-// import Home from '../pages/Home/Home';
+import Home from '../pages/Home/Home';
 import Register from "../pages/Register/Register";
 
 
@@ -9,10 +9,10 @@ const router: RouteObject[] = [
         path: '/',
         element: <Root/>,
         children: [
-            // {
-            //     path: '',
-            //     element: <Home />
-            // }
+            {
+                path: '',
+                element: <Home />
+            }
         ]
     },
     {

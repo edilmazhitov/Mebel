@@ -1,0 +1,95 @@
+.swiper-image {
+
+  &__img {
+    width: 1140px;
+    height: 450px;
+  }
+}
+
+
+@media (max-width: 1092px) {
+  .swiper-image__img {
+    width: 1060px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 993px) {
+  .swiper-image__img {
+    width: 960px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 900px) {
+  .swiper-image__img {
+    width: 880px;
+    height: 330px;
+  }
+}
+
+
+@media (max-width: 800px)  {
+  .swiper-image__img {
+    width: 765px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-image__img {
+    width: 740px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 660px) {
+
+  .swiper-image__img {
+    width: 640px;
+    height: 240px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .swiper-image {
+
+    padding: 30px 0 0;
+
+    &__img {
+      width: 532px;
+      height: 190px;
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .swiper-image__img {
+    width: 435px;
+    height: 175px;
+  }
+}
+
+@media (max-width: 425px) {
+  .swiper-image__img {
+    width: 385px;
+    height: 145px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .swiper-image__img {
+    width: 336px;
+    height: 131px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .swiper-image__img {
+    width: 280px;
+    height: 110px;
+  }
+}

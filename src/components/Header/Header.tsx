@@ -7,7 +7,7 @@ import {BsTelephone} from "react-icons/bs";
 import {TbTruckDelivery} from "react-icons/tb";
 
 import {Link} from "react-router-dom";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../icons/Logo.png";
 import Navbar from "../Navbar/Navbar";
 
 
@@ -38,9 +38,9 @@ const Header: FC = () => {
                     <div className="header__left">
                         <div className="menu">
                             <div className="header__menu-left">
-                                <Link className="header__contacts" to="">
+                                <Link className="header__contacts" to="tel:8(964)999999">
                                     <BsTelephone className="header__contacts-icons"/>
-                                    <a href="tel:8(964)999999" className="header__contacts-tel">8 (964) 89 99 119</a>
+                                    <p className="header__contacts-tel">8 (964) 89 99 119</p>
                                 </Link>
                                 <Link className="header__delivery" to="">
                                     <TbTruckDelivery className="header__delivery-icons"/>

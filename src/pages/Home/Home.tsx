@@ -1,12 +1,20 @@
 import { FC } from 'react';
+import SwiperImage from "../../components/SwiperImage/SwiperImage";
+import Products from "../../components/Products/Products"
 
 const Home: FC = () => {
     return (
-        <div>
+        <main>
             <div className="container">
-                <h1>PAGE HOME</h1>
+                <SwiperImage />
             </div>
-        </div>
+            <section className="bestsellers">
+                <div className="container">
+                    <h1 className="bestsellers__title">Хиты продаж</h1>
+                    <Products />
+                </div>
+            </section>
+        </main>
     );
 };
 

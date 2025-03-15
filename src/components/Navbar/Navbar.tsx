@@ -23,12 +23,12 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar__menu-left">
-                        <Link className="navbar__contacts" to="">
-                            <BsTelephone className="navbar__contacts-icons"/>
-                            <a href="tel:8(964)999999" className="navbar__contacts-tel">8 (964) 89 99 119</a>
+                        <Link className="navbar__contacts" to="tel:8(964)999999">
+                            <span><BsTelephone className="navbar__contacts-icons"/></span>
+                            <p className="navbar__contacts-tel">8 (964) 89 99 119</p>
                         </Link>
                         <Link className="navbar__delivery" to="">
-                            <TbTruckDelivery className="navbar__delivery-icons"/>
+                            <span><TbTruckDelivery className="navbar__delivery-icons"/></span>
                             <h1 className="navbar__delivery-title">Доставка</h1>
                         </Link>
                     </div>

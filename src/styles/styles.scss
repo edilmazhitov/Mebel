@@ -1,15 +1,18 @@
+// globals styles import
 @use "./globals.scss";
 
-// components styles
+// components styles import
 @use "./components/Header.scss";
 @use "./components/Navbar.scss";
 @use "./components/userBar.scss";
 @use "./components/Menu.scss";
+@use "./components/SwiperImage.scss";
+@use "./components/Products.scss";
 
 
-// pages styles
+// pages styles import
 
-@use "pages/Home.scss";
+@use "./pages/Home.scss";
 @use "./pages/Register.scss";
 
 

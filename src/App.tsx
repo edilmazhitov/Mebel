@@ -1,16 +1,14 @@
-import { FC } from 'react';
-import { RouterProvider } from "react-router-dom";
-import router from "./routing/routing";
+import {RouterProvider} from "react-router-dom";
+import router from "./routing/routing.tsx";
+import './styles/styles.scss'
 
-import './styles/styles.scss';
+function App() {
 
-
-const App: FC = () => {
     return (
         <>
             <RouterProvider router={router} />
         </>
     );
-};
+}
 
 export default App;

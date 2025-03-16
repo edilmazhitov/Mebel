@@ -45,7 +45,7 @@ export const getAllProducts = createAsyncThunk<ProductDataType[], void, { reject
 );
 
 
-const productsSlice = createSlice({
+const products = createSlice({
     name: "products",
     initialState,
     reducers: {},
@@ -66,4 +66,4 @@ const productsSlice = createSlice({
     },
 });
 
-export default productsSlice.reducer;
+export default products.reducer;

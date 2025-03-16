@@ -6,10 +6,23 @@
       "name": "Edil",
       "surname": "Mazhitov",
       "phone": "+996225080276",
+      "password": "edilmazhitov",
       "city": "Bishkek",
       "street": "Frunze",
       "home": 993,
       "orders": [],
+      "points": 500
+    },
+    {
+      "email": "zusupovaerkinai@gmail.com",
+      "password": "$2a$10$LWH5WrwTF012og9ih03ecOP1GNDr0/NPdlqlJF.3XUZEX8U2EMdRm",
+      "id": 2,
+      "name": "Эдил",
+      "surname": "Мажитов",
+      "phone": "+996 222 988 267",
+      "city": "Германия",
+      "street": "шцув",
+      "home": "50",
       "points": 500
     }
   ],
